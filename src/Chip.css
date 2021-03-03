@@ -1,0 +1,36 @@
+
+.newsfeed__popularlists__badges{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chip{
+    display: flex;
+    height: 30px;
+    border: 1px solid #31363a;
+    align-items: center;
+    border-radius: 18px;
+    padding: 3px 0px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.chip__avatar{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 10px;
+    border: 1px solid #31363a;
+    background-color: #31363a;
+}
+
+.chip__avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chip__label{
+    padding-right: 10px;
+}
